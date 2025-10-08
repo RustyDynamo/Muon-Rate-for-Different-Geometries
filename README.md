@@ -16,5 +16,5 @@ Using this grid, we Riemann Integrate the normalized flux over the momentum and 
 This method allows to vary the parameters such as area, distance between areas and displacement for each geometry chosen to accurately model the IceCube Upgrade. 
 
 ## Requirements 
-* `Python > 3.7`, `numpy`, `scipy`, `daemonflux` 
+* `Python > 3.7`, `numpy`, `scipy`, `daemonflux`, `pandas` 
 * `matplotlib` for plots
