@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-#Muon Flux through a fix area
-This code investigates the flux of muons passing through a constant circular area as a function of incidence angle. It also estimates the muon rate passing through that area. The area of the circle here is set to be the circular projection of an mDOM of the IceCube Upgrade.
-To calculate the rate of muons passing through this area, we Riemann Integrate the flux over a defined range of momentum and angles.
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -12,6 +6,12 @@ from scipy.integrate import quad
 !pip install daemonflux
 import daemonflux
 from daemonflux import Flux
+
+"""
+#Muon Flux through a fix area
+This code investigates the flux of muons passing through a constant circular area as a function of incidence angle. It also estimates the muon rate passing through that area. The area of the circle here is set to be the circular projection of an mDOM of the IceCube Upgrade.
+To calculate the rate of muons passing through this area, we Riemann Integrate the flux over a defined range of momentum and angles.
+"""
 
 # Constants
 diameter = 35.6  # cm
